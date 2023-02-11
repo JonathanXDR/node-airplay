@@ -1,5 +1,4 @@
-node-airplay -- AirPlay client library for node.js
-====================================
+# node-airplay -- AirPlay client library for node.js
 
 node-airplay is a client library for Apple's
 [AirPlay](http://en.wikipedia.org/wiki/AirPlay) remote playback protocol.
@@ -7,14 +6,14 @@ It implements a simple AirPlay device browser using mdns and command interface.
 
 Currently supported features:
 
-* AirPlay device discovery
-* Support for audio and video playback
+- AirPlay device discovery
+- Support for audio and video playback
 
 Coming soon (maybe):
 
-* Photo playback
-* Robust error handling
-* Better device information formatting (supported features/etc)
+- Photo playback
+- Robust error handling
+- Better device information formatting (supported features/etc)
 
 ## Quickstart
 
@@ -100,7 +99,7 @@ Obtain devices using the browser API:
     // Grab a device to play with
     var device = allDevices[0];
 
-*TODO* At some point, you'll be able to connect directly:
+_TODO_ At some point, you'll be able to connect directly:
 
     var device = require('airplay').connect(deviceHost);
     device.on('ready', function() {
@@ -157,3 +156,19 @@ the call was successful and null if the call failed.
     // Adjust playback volume
     // NOTE: may not be supported
     device.volume(value);
+
+## Troubleshooting
+
+If you're having trouble connecting to your device, try the following commands to see if your device is reachable:
+
+    # Check the routing table
+    netstat -r | grep "your-device-name"
+
+    # Check the ARP table
+    arp -a | grep "your-device-name"
+
+Also check if the port is correct. The default is 7000, but some devices may use a different port. You can check the port by looking at the device's TXT record:
+
+    dig -t TXT _airplay._tcp.local
+
+For more information, see [this Apple support article](https://support.apple.com/en-us/HT202944).

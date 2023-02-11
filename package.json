@@ -19,13 +19,11 @@
   },
   "main": "./lib/airplay",
   "dependencies": {
-    "plist": ">=0.2.1",
-    "mdns": ">=0.0.7"
+    "mdns": "^2.7.2",
+    "plist": ">=0.2.1"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "engines": {
     "node": ">= 0.5.x"
-  },
-  "devDependencies": {}
+  }
 }
