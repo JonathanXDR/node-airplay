@@ -1,0 +1,89 @@
+{
+interfaceIndex: 15,
+type: ServiceType {
+name: 'airplay',
+protocol: 'tcp',
+subtypes: [],
+fullyQualified: true
+},
+replyDomain: 'local.',
+flags: 3,
+name: "Jonathan's Schlafzimmer",
+networkInterface: 'en0',
+fullname: "Jonathan's\\032Schlafzimmer._airplay._tcp.local.",
+host: 'Jonathans-Schlafzimmer.local.',
+port: 7000,
+rawTxtRecord: 05 61 63 6c 3d 30 18 62 74 61 64 64 72 3d 30 31 3a 45 35 3a 43 43 3a 33 45 3a 30 43 3a 43 42 1a 64 65 76 69 63 65 69 64 3d 44 34 3a 41 33 3a 33 44 3a ... 385 more bytes <Buffer >,
+txtRecord: {
+acl: '0',
+btaddr: '01:E5:CC:3E:0C:CB',
+deviceid: 'D4:A3:3D:60:BD:85',
+fex: 'AMp/StBLNbwAoQ',
+features: '0x4A7FCA00,0xBC354BD0',
+flags: '0x98404',
+gid: '9C5C5AB0-71D9-48B2-9507-6A86A1663777+65165920-AFF3-4A7A-A6A6-1D214FC3DD98',
+igl: '1',
+gcgl: '1',
+model: 'AudioAccessory1,1',
+protovers: '1.1',
+pi: '200ca885-5fd9-433b-b517-1d30bb985c22',
+psi: 'CD021C6E-B8EC-4E61-BA2E-FFC483068BFF',
+pk: '5909a175fc4f5b7d6fac1128cc882cad8d51a07fb9908096adc21ee202816ed0',
+srcvers: '675.4.1',
+osvers: '16.3.2',
+vv: '2'
+},
+addresses: [
+'fe80::1c3b:ba31:6b35:db68',
+'fd00:bb1c:bb90:1b00:1c53:be8b:ec61:f95a',
+'192.168.8.114'
+]
+}
+
+{
+interfaceIndex: 15,
+type: ServiceType {
+name: 'airplay',
+protocol: 'tcp',
+subtypes: [],
+fullyQualified: true
+},
+replyDomain: 'local.',
+flags: 3,
+name: "Jonathan's Schlafzimmer (3)",
+networkInterface: 'en0',
+fullname: "Jonathan's\\032Schlafzimmer\\032(3)._airplay._tcp.local.",
+host: 'Jonathans-Schlafzimmer-3.local.',
+port: 7000,
+rawTxtRecord: 05 61 63 6c 3d 30 18 62 74 61 64 64 72 3d 33 46 3a 37 30 3a 46 33 3a 42 31 3a 37 38 3a 42 37 1a 64 65 76 69 63 65 69 64 3d 46 34 3a 33 34 3a 46 30 3a ... 548 more bytes <Buffer >,
+txtRecord: {
+acl: '0',
+btaddr: '3F:70:F3:B1:78:B7',
+deviceid: 'F4:34:F0:47:C3:C4',
+fex: 'AMp/StBLNbwAoQ',
+features: '0x4A7FCA00,0xBC354BD0',
+flags: '0xbac04',
+gid: '9C5C5AB0-71D9-48B2-9507-6A86A1663777+65165920-AFF3-4A7A-A6A6-1D214FC3DD98',
+igl: '0',
+gcgl: '1',
+gpn: "Jonathan's Schlafzimmer",
+pgid: '9C5C5AB0-71D9-48B2-9507-6A86A1663777+65165920-AFF3-4A7A-A6A6-1D214FC3DD98',
+pgcgl: '1',
+tsid: '773DB171-8EE9-5FB2-8BEA-4CFE8DF48FF2',
+tsm: '1',
+model: 'AudioAccessory5,1',
+protovers: '1.1',
+pi: '511f04f3-dbb1-4cda-b6c6-8ac652e62984',
+psi: 'D3A2AF5F-33EC-4661-88CB-B8A76009A73A',
+pk: '8e0f392a5a74d4c274470fbe7771791f711ac762066225f7ca1dbc38a68deb78',
+srcvers: '675.4.1',
+osvers: '16.3.2',
+vv: '2'
+},
+addresses: [
+'fe80::fc:e8fc:44a:7ef1',
+'fde9:384:571a:4b66:2:fda9:169b:8386',
+'fd00:bb1c:bb90:1b00:106a:8c2a:5f84:97b4',
+'192.168.8.118'
+]
+}

@@ -1,4 +1,4 @@
-const { Browser } = require('./lib/airplay/browser.js');
+const Browser = require('./lib/airplay/browser.js');
 const browser = new Browser();
 
 browser.start();
