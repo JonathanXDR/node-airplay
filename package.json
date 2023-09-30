@@ -3,7 +3,9 @@
   "description": "Apple AirPlay client library",
   "version": "0.0.3",
   "author": "Ben Vanik <ben.vanik@gmail.com>",
-  "contributors": [],
+  "contributors": [
+    "Jonathan Russ <jonathan.russ@bluewin.ch>"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/benvanik/node-airplay.git"
@@ -20,10 +22,13 @@
   "main": "./lib/airplay",
   "dependencies": {
     "mdns": "^2.7.2",
-    "plist": ">=0.2.1"
+    "plist": "^3.1.0"
   },
   "scripts": {},
   "engines": {
     "node": ">= 0.5.x"
+  },
+  "devDependencies": {
+    "@types/plist": "^3.0.3"
   }
 }
