@@ -21,7 +21,7 @@
   },
   "main": "./lib/airplay",
   "dependencies": {
-    "mdns": "^2.7.2",
+    "multicast-dns": "^7.2.5",
     "plist": "^3.1.0"
   },
   "scripts": {},
